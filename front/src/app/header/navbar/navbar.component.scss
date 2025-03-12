@@ -1,0 +1,25 @@
+.nav-menu {
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    margin: auto;
+  }
+  
+  .nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+    
+  .nav-link:hover { 
+    color: yellowgreen;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 1200px) {
+    .nav-link {
+      
+      font-size: 1em;
+    }
+  }
